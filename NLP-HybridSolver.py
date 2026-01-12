@@ -1,7 +1,7 @@
 # Minimize the following nonlinear function:
 #   f(x,y) = (x-1)^2 + (y-2)^2 + sin(3x) + cos(2y)
 # subjet to bounds
-#    -5 <= x <= 5
+#    -5 <= x, y <= 5
 
 from dwave.system import LeapHybridNLSampler
 import dimod
